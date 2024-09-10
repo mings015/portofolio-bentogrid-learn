@@ -1,19 +1,11 @@
 <script lang="ts">
-    import LastPart from "../components/last-part.svelte";
     import Icon from '@iconify/svelte';
 </script>
 
 <style>
-    
-   
     div :global(.color-icon) {
         color: #A291FD;
     }
-
-    
-
-   /* Ensure the container is scrollable on mobile */
-   
  </style>
 
 
@@ -39,16 +31,40 @@
         <div class="container mx-auto">
             <div class="grid xl:grid-cols-2 xl:gap-2 xl:flex">
                 <div class="container grid justify-center grid-cols-1 gap-2 md:grid-cols-2 xl:w-3/5">
-                    <div>
-                        <div class="border-2 h-1/3">3</div>
-                        <div class="border-2 h-1/3">4</div>
-                        <div class="border-2 h-1/3">5</div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 h-1/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="ion:person" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">About Me</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">About Me</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 h-1/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="basil:bag-solid" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">Projects</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 h-1/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="mdi:achievement-variant" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">Achievement</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Tech Stacks</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="flex flex-col order-first gap-2 md:order-none"> 
                         <div class="flex flex-col h-auto gap-4 p-4 rounded-lg bg-primary_500">
                             <div class="flex justify-between gap-4">
                                 <div class="flex items-center gap-4">
-                                    <img class="w-[100px] h-[100px] object-cover rounded-lg"  src="https://shanibacreative.com/wp-content/uploads/2020/06/membuat-foto-profil-yang-bagus-834x556.jpg" alt="profile">
+                                    <img class="w-[100px] h-[100px] object-cover object-top	 rounded-lg" src="/foto.jpeg" alt="profile">
                                 <div class="flex flex-col justify-between">
                                     <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-primary_400">
                                         <span class="relative flex w-2 h-2">
@@ -58,7 +74,7 @@
                                         <div class="text-sm text-primary_200">Available To Work</div>
                                     </div>
                                     <div class="text-[22px] text-primary_100">Muh. Muhaimin Nur</div>
-                                    <div class="text-primary_200">Im <span class="text-primary">Kontolodon</span></div>
+                                    <div class="text-primary_200">Im <span class="text-primary">Front End Developer</span></div>
                                 </div>
                                 </div>
                                 <!-- <div class="invisible md:visible">
@@ -101,6 +117,8 @@
                                 <div class="flex items-center justify-center flex-1 gap-1 px-4 py-3 rounded-lg bg-primary_400">
                                     <Icon icon="ic:round-file-download" class="color-icon" />
                                     <span class="ml-2">Resume</span>
+                                    
+
                                 </div>
                             </div>
                         </div>
@@ -112,7 +130,7 @@
                                 </div>
                                 <div class="flex items-center justify-center w-full gap-2 rounded-full bg-primary_400">
                                     <Icon icon="solar:flag-bold" class="color-icon" />
-                                    <span class="text-primary_200">Project</span>
+                                    <span class="my-1 text-xs text-primary_200">Project</span>
                                 </div>
                             </div>
                             <div class="flex flex-col items-center gap-2 p-2 rounded-lg justify-evenly bg-primary_500">
@@ -121,8 +139,8 @@
                                     <Icon icon="flowbite:plus-outline" class="color-icon" style="font-size: 24px;" />
                                 </div>
                                 <div class="flex items-center justify-center w-full gap-2 rounded-full bg-primary_400">
-                                    <Icon icon="solar:flag-bold" class="color-icon" />
-                                    <span class="text-primary_200">Project</span>
+                                    <Icon icon="fa-solid:smile-beam" class="color-icon" />
+                                    <span class="my-1 text-xs text-primary_200">Happy Clients</span>
                                 </div>
                             </div>
                             <div class="flex flex-col items-center gap-2 p-2 rounded-lg justify-evenly bg-primary_500">
@@ -131,18 +149,14 @@
                                     <Icon icon="flowbite:plus-outline" class="color-icon" style="font-size: 24px;" />
                                 </div>
                                 <div class="flex items-center justify-center w-full gap-2 rounded-full bg-primary_400">
-                                    <Icon icon="solar:flag-bold" class="color-icon" />
-                                    <span class="text-primary_200">Project</span>
+                                    <Icon icon="solar:star-fall-bold" class="color-icon" />
+                                    <span class="my-1 text-xs text-primary_200">Year Expertise</span>
                                 </div>
                             </div>
                             <div class="flex flex-col items-center gap-2 p-2 rounded-lg justify-evenly bg-primary_500 md:hidden">
-                                <div class="flex items-center">
-                                    <span class="text-5xl text-primary_300">56</span>
-                                    <Icon icon="flowbite:plus-outline" class="color-icon" style="font-size: 24px;" />
-                                </div>
-                                <div class="flex items-center justify-center w-full gap-2 rounded-full bg-primary_400">
-                                    <Icon icon="solar:flag-bold" class="color-icon" />
-                                    <span class="text-primary_200">Project</span>
+                                <div class="flex items-center justify-center flex-1 gap-2 px-4 py-3">
+                                    <span class="text-primary_200">Resume</span>
+                                    <Icon icon="ic:round-file-download" class="color-icon" />
                                 </div>
                             </div>
                             
@@ -155,26 +169,82 @@
                             <div>
                                 <span class="text-primary_100 text-[16px]">Tech Stacks</span>
                             </div>
-                            <div>
-                                <ul class="list-disc list-inside text-primary_200 text-[14px]">
-                                    <li>ReactJS</li>
-                                    <li>NextJS</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>NodeJS</li>
-                                    <li>ExpressJS</li>
-                                </ul>
+                            <div class="flex flex-wrap items-center justify-center gap-3 m-2">
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="devicon:html5" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="skill-icons:css" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                <div class="p-2 rounded-lg bg-primary_400 ">
+                                    <Icon icon="logos:react" style="font-size: 28px" />
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="xl:w-2/5">
-                    <div class="md:flex xl:h-1/2">
-                        <div class="border-2 md:w-1/3">6</div>
-                        <div class="border-2 md:w-2/3">7</div>
+                <div class="my-2 xl:my-0 xl:w-2/5">
+                    <div class="flex flex-col gap-2 md:flex-row md:flex xl:h-1/2">
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-1/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="basil:bag-solid" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">Experience</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-2/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="basil:bag-solid" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">Workflow</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="md:flex xl:h-1/2">
-                        <div class="border-2 md:w-2/3">8</div>
-                        <div class="border-2 md:w-1/3">9</div>
+                    <div class="flex flex-col gap-2 mt-2 md:flex md:flex-row xl:h-1/2">
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-2/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="basil:bag-solid" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">Social Media</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-1/3">
+                            <div class="flex items-center gap-2">
+                                <Icon icon="basil:bag-solid" class="color-icon" />
+                                <span class="text-primary_300 text-[14px]">lets Work</span>
+                            </div>
+                            <div>
+                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
