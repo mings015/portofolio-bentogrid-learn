@@ -205,9 +205,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="my-2 xl:my-0 xl:w-2/5">
+                <div class="flex flex-col gap-2 my-2 md:flex- xl:my-0 xl:w-2/5">
                     <div class="flex flex-col gap-2 md:flex-row md:flex xl:h-1/2">
-                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-1/3">
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-3/5">
                             <div class="flex items-center gap-2">
                                 <Icon icon="basil:bag-solid" class="color-icon" />
                                 <span class="text-primary_300 text-[14px]">Experience</span>
@@ -216,7 +216,7 @@
                                 <span class="text-primary_100 text-[16px]">Works Gallery</span>
                             </div>
                         </div>
-                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-2/3">
+                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-2/5">
                             <div class="flex items-center gap-2">
                                 <Icon icon="basil:bag-solid" class="color-icon" />
                                 <span class="text-primary_300 text-[14px]">Workflow</span>
@@ -226,27 +226,45 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-2 mt-2 md:flex md:flex-row xl:h-1/2">
-                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-2/3">
-                            <div class="flex items-center gap-2">
-                                <Icon icon="basil:bag-solid" class="color-icon" />
-                                <span class="text-primary_300 text-[14px]">Social Media</span>
-                            </div>
+                    <div class="flex flex-col gap-2 md:flex md:flex-row xl:h-1/2">
+                        <div class="flex flex-col items-center justify-start gap-5 py-3 rounded-lg px-7 md:px-4 bg-primary_500 md:w-2/5 ">
                             <div>
-                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                                <div class="flex items-center gap-2">
+                                    <Icon icon="mingcute:user-follow-2-fill" class="color-icon" />
+                                    <span class="text-primary_300 text-[14px]">Social Media</span>
+                                </div>
+                                <div>
+                                    <span class="text-primary_100 text-[16px]">Online Presence</span>
+                                </div>
+                            </div>
+                            <div class="grid items-start justify-center w-full grid-cols-1 gap-4 item text-primary_200">
+                                <div class="flex items-start justify-start flex-1 gap-2 px-4 py-4 rounded-lg bg-primary_400">
+                                    <Icon icon="pajamas:twitter" class="color-icon" style="font-size: 24px;" />
+                                    <span class="text-sm">@muhmuhaiminnur</span>
+                                </div>
+                                <div class="flex items-start justify-start flex-1 gap-2 px-4 py-4 rounded-lg bg-primary_400">
+                                    <Icon icon="mdi:instagram" class="color-icon" style="font-size: 24px;"/>
+                                    <span class="text-sm">@mingsssxz</span>
+                                </div>
+                                <div class="flex items-start justify-start flex-1 gap-2 px-4 py-4 rounded-lg bg-primary_400">
+                                    <Icon icon="mdi:linkedin" class="color-icon" style="font-size: 24px;"/>
+                                    <span class="text-sm">muhmuhaiminnur</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 md:w-1/3">
-                            <div class="flex items-center gap-2">
+                        <div class="flex flex-col items-center justify-center p-3 rounded-lg gap-7 bg-primary_500 md:w-3/5">
+                            <div class="flex flex-col items-center justify-center">
                                 <Icon icon="basil:bag-solid" class="color-icon" />
-                                <span class="text-primary_300 text-[14px]">lets Work</span>
+                                <span class="text-lg text-primary_300">lets Work Together</span>
+                                <span class="text-sm text-primary_100">Let's Make Magic Happen Together!</span>
                             </div>
-                            <div>
-                                <span class="text-primary_100 text-[16px]">Works Gallery</span>
+                            <div class="flex items-center justify-center gap-2 px-4 py-4 rounded-lg bg-primary_400">
+                                <Icon icon="ic:baseline-email" class="color-icon" style="font-size: 24px;" />
+                                <span class="text-sm text-primary_200">Email Me</span>
                             </div>
+                            
                         </div>
                     </div>
-                    
                 </div>
     
             </div>
