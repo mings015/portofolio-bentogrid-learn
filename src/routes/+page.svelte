@@ -32,14 +32,16 @@
             <div class="grid xl:grid-cols-2 xl:gap-2 xl:flex">
                 <div class="container grid justify-center grid-cols-1 gap-2 md:grid-cols-2 xl:w-3/5">
                     <div class="flex flex-col gap-2">
-                        <div class="flex flex-col items-center justify-start gap-1 p-3 rounded-lg bg-primary_500 h-1/3">
-                            <div class="flex items-center gap-2">
-                                <Icon icon="ion:person" class="color-icon" />
-                                <span class="text-primary_300 text-[14px]">About Me</span>
+                        <div class="flex flex-col items-center justify-start gap-4 p-3 rounded-lg bg-primary_500 h-1/3">
+                            <div class="flex flex-col items-center justify-center flex-1 gap-4 text-center text-primary_200">
+                                <p class="text-2xl">
+                                    Say Hi from <span class="text-primary">Muhaimin</span>, Web Developer From Indonesia
+                                </p>
+                                <p class="">
+                                    I design and code beautifully simple things and i love what i do. Just simple like that!
+                                </p>
                             </div>
-                            <div>
-                                <span class="text-primary_100 text-[16px]">About Me</span>
-                            </div>
+                            
                         </div>
                         <div class="flex flex-col items-center justify-start gap-2 p-3 rounded-lg bg-primary_500">
                             <div class="flex flex-col items-center">
@@ -72,6 +74,33 @@
                             </div>
                             <div>
                                 <span class="text-primary_100 text-[16px]">Tech Stacks</span>
+                            </div>
+                            <div class="grid items-start justify-center w-full grid-cols-1 gap-2 overflow-y-auto item text-primary_200">
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="mage:goals-fill" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Define Your Site Goals</span>
+                                </div>
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="dashicons:feedback" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Ideas into a Wireframe</span>
+                                </div>
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="mdi:canvas" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Blank Canvas into Website </span>
+                                </div>
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="material-symbols:feedback" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Get Feedback</span>
+                                </div>
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="grommet-icons:workshop" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Make Sure It Works as Expected</span>
+                                </div>
+                                <div class="flex items-center justify-start flex-1 gap-2 px-4 py-2 rounded-lg bg-primary_400">
+                                    <Icon icon="carbon:ibm-launchpad-s4" class="color-icon" style="font-size: 18px;" />
+                                    <span class="text-sm">Launch the Website</span>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -123,6 +152,12 @@
                                         <span class="ml-2">Universitas Dipa Makassar</span>
                                     </div>
                                 </span>
+                                <span>
+                                    <div class="flex items-center px-2 py-1 rounded-full bg-opacity-40 bg-primary_450">
+                                        <Icon icon="ph:soccer-ball" class="color-icon" />
+                                        <span class="ml-2">Football</span>
+                                    </div>
+                                </span>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-primary_200"> 
                                 <div class="flex items-center justify-center flex-1 gap-1 px-4 py-3 rounded-lg bg-primary_400">
@@ -132,12 +167,10 @@
                                 <div class="flex items-center justify-center flex-1 gap-1 px-4 py-3 rounded-lg bg-primary_400">
                                     <Icon icon="ic:round-file-download" class="color-icon" />
                                     <span class="ml-2 text-sm">Resume</span>
-                                    
-
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:order-first ">
+                        <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:order-first h-1/3">
                             <div class="flex flex-col items-center gap-2 p-2 rounded-lg justify-evenly bg-primary_500">
                                 <div class="flex items-center">
                                     <span class="text-5xl text-primary_300">56</span>
