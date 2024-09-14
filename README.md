@@ -2,6 +2,14 @@
 
 Saya membuat halaman web ini dengan konsep desain yang sedang tren sekarang yaitu bento grid yang sudah responsif tetapi isi dari kontennya ada beberapa yang dalam bentuk dummy dikarenakan deadline.
 
+## Dokumentasi
+mobile
+![mobile](static/phone.png)
+tablet
+![mobile](static/tablet.png)
+desktop
+![mobile](static/deskop.png)
+
 ## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
