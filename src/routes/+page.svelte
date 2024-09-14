@@ -297,10 +297,6 @@
                                     </div>
                                     <p class="mb-2 text-primary">BPJS Ketenagakerjaan Makassar</p>
                                 </div>
-
-                                
-                                
-                                
                             </div>
 
                           </div>

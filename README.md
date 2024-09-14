@@ -1,4 +1,8 @@
-# create-svelte
+# Portofolio
+
+Saya membuat halaman web ini dengan konsep desain yang sedang tren sekarang yaitu bento grid yang sudah responsif tetapi isi dari kontennya ada beberapa yang dalam bentuk dummy dikarenakan deadline.
+
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
